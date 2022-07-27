@@ -3,11 +3,3 @@ variable "ubuntu-ami" {
   type        = string
   default     = "ami-02f3416038bdb17fb"
 }
-
-variable "db-username" {
-  type = string
-}
-
-variable "db-password" {
-  type = string
-}
